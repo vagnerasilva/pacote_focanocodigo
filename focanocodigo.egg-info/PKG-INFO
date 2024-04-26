@@ -1,13 +1,13 @@
 Metadata-Version: 2.1
 Name: focanocodigo
-Version: 1.0.0
+Version: 1.0.2
 Summary: Calculadora simples
 Home-page: https://github.com/vagnerasilva
 Author: vagner a silva
 Author-email: vagnerasilva@email.com.br
 License: MIT
-Project-URL: Código fonte, https://github.com/vagnerasilva
-Project-URL: Download, https://github.com/vagnerasilva
+Project-URL: Código fonte, https://github.com/vagnerasilva/pacote_focanocodigo
+Project-URL: Download, https://github.com/vagnerasilva/pacote_focanocodigo
 Keywords: calculadora simples
 Classifier: Development Status :: 5 - Production/Stable
 Classifier: Intended Audience :: Developers

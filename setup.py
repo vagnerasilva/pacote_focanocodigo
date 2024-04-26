@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name = 'focanocodigo',
-    version = '1.0.0',
+    version = '1.0.2',
     author = 'vagner a silva',
     author_email = 'vagnerasilva@email.com.br',
     packages = ['focanocodigo'],
@@ -10,8 +10,8 @@ setup(
     long_description = 'Calculadora simples para somar, subtrair, dividir e multiplicar.',
     url = 'https://github.com/vagnerasilva',
     project_urls = {
-        'Código fonte': 'https://github.com/vagnerasilva',
-        'Download': 'https://github.com/vagnerasilva'
+        'Código fonte': 'https://github.com/vagnerasilva/pacote_focanocodigo',
+        'Download': 'https://github.com/vagnerasilva/pacote_focanocodigo'
     },
     license = 'MIT',
     keywords = 'calculadora simples',
