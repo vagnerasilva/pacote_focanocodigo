@@ -1,19 +1,28 @@
-class MinhaClasse:
+class ControleRemoto:
 
-    def __init__(self, att) -> None:
-        self.meu_atributo = 'Ola Mundo'
-        self.meu_atributo2 = att
-
-    def meu_metodo(self):
-        print("Estou no metodo! ")
-        print(self.meu_atributo)
-        print(self.meu_atributo2)
-
-
-    def meu_metodo2(self, num, mult):
-        return num * mult
+    def __init__(self, televisao, comodo):
+        self.televisao = televisao
+        self.comodo = comodo
+        
     
+    def avancar_canal(self):
+        print('Canal Avancado')
 
-objeto = MinhaClasse(23)
+    def voltar_canal(self):
+        print('Voltar o canal')
 
-objeto.meu_metodo()
+    def escolher_canal(self, canal):
+        print("Alterando para o canal:{}".format(canal))
+
+
+controle_sala = ControleRemoto('samsung', 'sala')
+print(controle_sala.comodo)
+print(controle_sala.televisao)
+controle_sala.avancar_canal()
+controle_sala.escolher_canal(12)
+
+controle_quarto = ControleRemoto('LG', 'Quarto')
+print(controle_quarto.comodo)
+print(controle_quarto.televisao)
+controle_quarto.avancar_canal()
+controle_quarto.escolher_canal(12)
