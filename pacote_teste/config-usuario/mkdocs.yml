@@ -1,0 +1,6 @@
+site_name: Configuracao Ususario Studio
+reponame: configuracao usuario sagemaker studio
+
+theme:
+  name: readthedocs
+  language: pt-BR

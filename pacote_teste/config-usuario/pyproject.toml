@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "config-usuario"
 version = "0.0.1"
-description = "Pacoter de configuracao do usuario do sagemaker studio "
+description = "Pacote de configuracao do usuario do sagemaker studio "
 authors = ["vagnerasilva <vagnerasilva>"]
 readme = "README.md"
 

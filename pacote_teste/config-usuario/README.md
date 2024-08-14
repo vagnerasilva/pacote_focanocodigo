@@ -22,3 +22,11 @@ poetry add -- group doc mkdocstrings-python
 
 Instalar ferramenta taskypi
 
+https://www.youtube.com/watch?v=uXQv2cciCeI
+
+
+
+Configurando projeto 
+
+https://www.youtube.com/watch?v=q7qpWeHyC8Q
+
