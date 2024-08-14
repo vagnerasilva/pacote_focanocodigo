@@ -21,7 +21,23 @@ taskipy = "^1.13.0"
 mkdocs = "^1.6.0"
 material = "^0.1"
 mkdocs-material = "^9.5.31"
+mkdocstrings = "^0.19.1"
+mkdocstrings-python = "^0.8.3"
+mkdocs-macros-plugin = "^0.7.0"
+jinja2 = "^3.1.2"
+
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+pythonpath = "."
+addopts = "--doctest-modules"
+
+
+[tool.taskipy.tasks]
+docs = "mkdocs serve"
+test = "pytest -s -x --cov=notas_musicais -vv"
+post_test = "coverage html"
